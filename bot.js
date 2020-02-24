@@ -74,4 +74,4 @@ function getRandomInt(max){
     return Math.floor(Math.random() * Math.floor(max));
 }
 
-setInterval(post, 5000);
+setInterval(post, 3600000);
