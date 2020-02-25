@@ -18,7 +18,6 @@ async function post(){
     do{
         name = ""+await getRandomName();
     }while(name.length<=0 || name.length>15);
-    name="Ramin"
     let spaceToAdd = (15-name.length);
     let nameToWrite = emoji;
     for(let i=0; i<spaceToAdd; i++){
